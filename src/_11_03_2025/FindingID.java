@@ -1,6 +1,6 @@
 package _11_03_2025;
 
-import Utilities.Myfunc;
+import Utilities.MyFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,7 +37,7 @@ public class FindingID {
            // WebElement element2 = driver.findElement(By.id("last_8"));
          element2.sendKeys("Durmaz");
         }
-        Myfunc.Bekle(3);
+        MyFunc.Bekle(3);
         driver.quit();
     }
 }
